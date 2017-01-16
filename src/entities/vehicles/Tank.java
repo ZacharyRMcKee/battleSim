@@ -1,6 +1,11 @@
 package entities.vehicles;
 
-public abstract class Tank extends Vehicle {
+public class Tank extends Vehicle {
+	int number;
+	float morale; // willingness to fight
+	float strength; // offensive damage capability
+	short armor; // in effective mm for front armor
+	
 
 	public boolean canPenetrate(Vehicle other) {
 		return false;
