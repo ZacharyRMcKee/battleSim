@@ -58,20 +58,7 @@ public class battleSim {
 	}
 	public static void executeBattle(byte type)
 	{
-		if(type==1)
-		{
-			air = new Aerial();
-			land = new Land();
-		}
-		else if(type==2)
-		{
-			sea = new Naval();
-			air = new Aerial();
-		}
-		else if(type==3)
-		{
-			air = new Aerial();
-		}
+		
 	}
 
 }

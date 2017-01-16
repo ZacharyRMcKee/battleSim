@@ -1,4 +1,5 @@
-package factions;
+package entities.vehicles;
+import entities.Killable;
 
 public abstract class Vehicle implements Killable {
 	short health;

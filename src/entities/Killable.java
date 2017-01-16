@@ -1,4 +1,4 @@
-package factions;
+package entities;
 
 public interface Killable {
 	
